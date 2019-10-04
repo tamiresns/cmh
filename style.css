@@ -1,0 +1,158 @@
+/*header*/
+
+.img-cabecalho1{
+    width: 300px;
+}
+
+.img-cabecalho2{
+    width: 100%;
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+}
+
+
+/* colapse*/
+
+.panel-default>.panel-heading{
+    text-align: center;
+    height: 75px;
+
+}
+
+.panel-title > a, .panel-title > a:hover{
+    text-decoration: none;
+}
+
+.panel{
+    margin-top: 35px;
+}
+
+.panel-default>.panel-laranja{
+    background-color: #E28F00;
+}
+
+.head-verde{
+    border-left: #119739 solid 6px;
+    border-right: #119739 solid 6px;
+}
+
+.head-roxo{
+    border-left: #432156 solid 6px;
+    border-right: #432156 solid 6px;
+}
+
+.head-azul{
+    border-left: #28478B solid 6px;
+    border-right: #28478B solid 6px;
+}
+
+.head-laranja{
+    border-left: #E28F00 solid 6px;
+    border-right: #E28F00 solid 6px;
+}
+
+.panel-heading > .panel-title-first{
+    color: white;
+    font-weight: bold;
+}
+
+.panel-title{
+    font-size: 25px;
+    color: #575756;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 14px;
+}
+
+/*footer*/
+
+.footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: #28478B solid 12px;
+}
+
+.cohab>img{
+    width: 90px;
+}
+
+.logocmh>img{
+    width: 190px;
+
+}
+
+.logoprefeitura>img{
+    width: 120px;
+
+}
+
+.footertxt{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+/*xs*/
+@media screen and (max-width:767px){
+    .img-cabecalho1{
+        width:180px;
+    }
+
+    .panel-title{
+        font-size: 15px;
+        padding: 0px;
+        text-align: right;
+    }
+
+    .panel-default>.panel-heading{
+        height: 53px;
+    
+    }
+
+    .panel-body>p{
+        font-size: 12px;
+    }
+
+    .panel{
+        margin-top: 15px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+    }
+
+}
+
+/*sm*/
+@media screen and (min-width:768px){
+    .panel-body>p{
+        font-size: 17px;
+    }
+
+}
+
+/*md*/
+@media screen and (min-width:992px){
+    
+}
+
+/*lg*/
+@media screen and (min-width: 1200px){
+    
+}
+
